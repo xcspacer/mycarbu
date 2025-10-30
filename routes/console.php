@@ -8,4 +8,4 @@ Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
 
-Schedule::command('fuel-orders:send-daily-reminder')->dailyAt('10:30')->weekdays();
+Schedule::command('energy:sync-users')->everyFourHours();
