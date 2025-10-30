@@ -22,26 +22,18 @@ class UserSeeder extends Seeder
         ]);
 
         User::create([
-            'name' => 'Gonçalo Amorim',
-            'email' => 'gamorim@hugarogroup.com',
-            'password' => Hash::make('gamorim2025'),
+            'name' => 'João Paiva',
+            'email' => 'jpaiva@carbuiberia.com',
+            'password' => Hash::make('280522'),
             'role' => 'admin',
             'email_verified_at' => now()
         ]);
 
         User::create([
-            'name' => 'Gabriel Galvez',
-            'email' => 'gerencia@petroilum.com',
-            'password' => Hash::make('gerencia2025'),
+            'name' => 'User Teste',
+            'email' => 'userteste@carbuiberia.com',
+            'password' => Hash::make('280522'),
             'role' => 'user',
-            'email_verified_at' => now()
-        ]);
-
-        User::create([
-            'name' => 'Lassalete Figueiredo',
-            'email' => 'lfigueiredo@gestroilenergy.com',
-            'password' => Hash::make('lfigueiredo2025'),
-            'role' => 'operator',
             'email_verified_at' => now()
         ]);
     }
